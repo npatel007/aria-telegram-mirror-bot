@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  TOKEN: 'bot_token',
+  TOKEN: '1176487452:AAHiA9jPjhV2WV7X-C7ru2mKtOTGblx656U',
   ARIA_SECRET: 'hEdHJv%}H%g1ZcCz+jKnA#GyrGU6rm',
   ARIA_DOWNLOAD_LOCATION: '/home/user/path/to/download/dir (no trailing "/")',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
@@ -9,7 +9,7 @@ module.exports = Object.freeze({
   INDEX_DOMAIN: 'https://one.driveindex.ga/', // Supporting Sharable Links
   GDRIVE_PARENT_DIR_ID: 'id_of_Drive_folder_to_upload_into',
   SUDO_USERS: [012, 345],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [678, 901],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  AUTHORIZED_CHATS: [-479034298],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
@@ -22,8 +22,8 @@ module.exports = Object.freeze({
     path: '/botNotify'
   },
   COMMANDS_USE_BOT_NAME: {
-    ENABLED: false,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@nameOf_bot"
+    ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
+    NAME: "@ytr564_bot"
   },
   IS_TEAM_DRIVE: false
 });
